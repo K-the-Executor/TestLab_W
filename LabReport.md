@@ -51,16 +51,16 @@ Watt Toolkit也下载了，但是似乎作用不大，遂没有用。
 Ubuntu自己带了git不用重新下，Windows的vs下了wsl拓展，去wsl里面给vs下了server和一些别的拓展以及编译器啥的（sudo apt install build-essential gdb -y），给wsl配了公钥到github，都弄好了之后去克隆了一份仓库到本地
 
 ### 3.3 完成 main.c 的 TODO 并 commit
-搞到现在于是printf了一句哈姆雷特最有名的台词。之后就是标准commit流程。（add .和 commit -m和pull）
+搞到现在于是printf了一句哈姆雷特最有名的台词。之后就是标准commit流程。（add .和 commit -m和push）
 
 ### 3.4 新建 feature 分支与修改提交
-直接去wsl打了个git checkout -b feature，然后说了一句美队的台词。I can do this all day. 同样pull上去。
+直接去wsl打了个git checkout -b feature，然后说了一句美队的台词。I can do this all day. 同样push上去。
 这张图能看见两个commit，所以选了这张
 ![commit的截图](image/commit.png)  
 
 
 ### 4.2 切回 main 分支修改提交
-git checkout main，之后说了一句能力越大责任越大，pull上去
+git checkout main，之后说了一句能力越大责任越大，push上去
 
 ### 4.3 合并与冲突发生
 git merge feature 之后跳出
