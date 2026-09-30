@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("To be or not to be, that's a question.\n");
+    printf("I can do this all day.\n");
     printf("Hello, world!\n");
 }
